@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/driverNameInput"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:padding="16dp"
+        android:hint="Driver Name" />
+
+    <EditText
+        android:id="@+id/driverLocationInput"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:padding="16dp"
+        android:hint="Current Location (lat, lon)" />
+
+    <EditText
+        android:id="@+id/driverRatingInput"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:padding="16dp"
+        android:hint="Driver Rating" />
+</LinearLayout>
